@@ -1,0 +1,43 @@
+
+COLUMN_NAME          NUM_DISTINCT  NUM_NULLS    DENSITY        LOW       HIGH
+-------------------- ------------ ---------- ---------- ---------- ----------
+ID                           1200          0 ,000833333          1       1200
+MONTH_NO                       12          0 ,083333333          1         12
+EU_COUNTRY                     15          0 ,066666667          1         15
+
+3 rows selected.
+
+
+COLUMN_NAME          ENDPOINT_NUMBER ENDPOINT_VALUE
+-------------------- --------------- --------------
+EU_COUNTRY                         0              1
+EU_COUNTRY                         1             15
+ID                                 0              1
+ID                                 1           1200
+MONTH_NO                           0              1
+MONTH_NO                           1             12
+
+6 rows selected.
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     6 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     6 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |     7 |    42 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO"=12 AND "EU_COUNTRY"=6)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+

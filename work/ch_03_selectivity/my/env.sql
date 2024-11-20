@@ -1,0 +1,15 @@
+
+col NUM_DISTINCT format 99999999999990D00
+col LOW_VALUE    format 0000
+col HIGH_VALUE   format 0000
+col DENSITY      format 99999999999990D00
+col NUM_NULLS    format 99999999999990D00
+
+col COLUMN_NAME  format A20
+col TABLE_NAME   format A20
+col ENDPOINT_NUMBER format 0000
+col ENDPOINT_VALUE  format 0000
+col ENDPOINT_ACTUAL_VALUE format A10
+
+
+

@@ -1,0 +1,264 @@
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3337892515
+
+---------------------------------------------------------------
+| Id  | Operation          | Name     | Rows  | Bytes | Cost  |
+---------------------------------------------------------------
+|   0 | SELECT STATEMENT   |          |     1 |     3 |     2 |
+|   1 |  SORT AGGREGATE    |          |     1 |     3 |       |
+|*  2 |   TABLE ACCESS FULL| AUDIENCE |  1200 |  3600 |     2 |
+---------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - filter("MONTH_NO" IS NOT NULL)
+
+Note
+-----
+   - cpu costing is off (consider enabling it)
+

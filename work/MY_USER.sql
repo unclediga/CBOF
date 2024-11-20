@@ -4,6 +4,8 @@ GRANT CREATE VIEW TO test_user;
 grant ANALYZE ANY DICTIONARY to test_user;
 grant ANALYZE ANY to test_user;
 Grant SELECT ANY TABLE to test_user;
+Grant ALTER SYSTEM to test_user;
+
 
 -- SYS
 --CREATE PUBLIC SYNONYM dbms_stats for SYS.Dbms_Stats;
